@@ -1,0 +1,17 @@
+# --- Discord Bot Configuration ---
+
+# For local development, you can rename this file to `config.py` and
+# paste your bot token here.
+# The bot is programmed to fall back to this file if it doesn't find
+# an environment variable.
+DISCORD_TOKEN = "YOUR_BOT_TOKEN_HERE"
+
+# --- IMPORTANT FOR HOSTING ---
+# For hosting on a platform like Heroku, Replit, or a VPS, it is STRONGLY
+# recommended to use environment variables instead of this file.
+#
+# 1. Do NOT create a `config.py` file on your hosting service.
+# 2. Instead, create an environment variable named `DISCORD_TOKEN`.
+# 3. Set the value of this variable to your actual bot token.
+#
+# This keeps your token secure and separate from the code.
